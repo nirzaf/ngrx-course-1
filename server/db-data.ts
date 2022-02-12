@@ -4,12 +4,9 @@ export const USERS = {
     email: 'test@angular-university.io',
     password: 'test'
   }
-
 };
 
-
 export const COURSES: any = {
-
   4: {
     id: 4,
     description: 'NgRx (with NgRx Data) - The Complete Guide',
@@ -53,22 +50,6 @@ export const COURSES: any = {
     seqNo: 4,
     url: 'serverless-angular'
   },
-
-  /*
-
-
-  5: {
-    id: 5,
-    description: 'Angular for Beginners',
-    longDescription: "Establish a solid layer of fundamentals, learn what's under the hood of Angular",
-    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 5,
-    url: 'angular-for-beginners'
-  },
-
-*/
 
   12: {
     id: 12,
@@ -603,8 +584,6 @@ export const LESSONS = {
     "seqNo": 10,
     courseId: 4
   }
-
-
 };
 
 
@@ -616,11 +595,8 @@ export function findLessonsForCourse(courseId: number) {
   return Object.values(LESSONS).filter(lesson => lesson.courseId == courseId);
 }
 
-
 export function authenticate(email: string, password: string) {
-
   const user: any = Object.values(USERS).find(user => user.email === email);
-
   if (user && user.password == password) {
     return user;
   } else {
