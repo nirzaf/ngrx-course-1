@@ -8,8 +8,6 @@ import {
 import {User} from '../model/user.model';
 import {AuthActions} from '../action-types';
 
-
-
 export interface AuthState {
     user: User
 }
@@ -33,8 +31,5 @@ export const authReducer = createReducer(
             user: undefined
         }
     })
-
-
-
 );
 

@@ -9,7 +9,6 @@ This course repository is updated to Angular v13:
 
 
 # Installation pre-requisites
-
 For taking the course we recommend installing Node 16 Long Term Support Edition (LTE).
 
 To easily switch between node versions on your machine, we recommend using a node virtual environment tool such as [nave](https://www.npmjs.com/package/nave) or [nvm-windows](https://github.com/coreybutler/nvm-windows), depending on your operating system. 
